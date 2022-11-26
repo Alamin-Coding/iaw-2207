@@ -1,0 +1,275 @@
+/* All Common css Start */
+:root{
+    --primary-color: #007F5F;
+    --white-color: #ffffff;
+    --paragraph-color: #616161;
+    --haeading-color: #1E1E1E;
+    --ff1: 'Poppins', sans-serif;
+}
+body{
+    font-family: var(--ff1);
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+input:focus,button:focus,select:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+.common_haeading{
+    max-width: 692px;
+}
+.common_haeading h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: var(--haeading-color);
+}
+.common_haeading p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+}
+/* All Common css End */
+
+
+/*==============================
+     Navbar part Start
+==============================*/
+#navbar{
+    background: #eee;
+    padding: 25px 0;
+}
+.navbar-nav li{
+    margin: 0 15px;
+}
+.navbar-nav li a{
+    font-family: var(--ff1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--paragraph-color);
+}
+.item{
+    padding: 2px;
+    margin-bottom: 24px;
+}
+/*==============================
+     Navbar part End
+==============================*/
+
+
+/*==============================
+     Banner part Start
+==============================*/
+#banner{
+background: url(../images/banner.jpg) no-repeat center/cover;}
+
+#banner .overlay{
+    padding: 134px 0 ;
+    background: rgba(0, 0, 0, 0.4);
+}
+.banner_info{
+    
+}
+.banner_info .banner_text h1{
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    color: var(--white-color);
+    padding-right: 260px;
+}
+.banner_info .banner_text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    opacity: 0.7;
+    color: var(--white-color);
+    padding-right: 270px;
+}
+.banner_info .banner_text a{
+    background: var(--primary-color);
+    border-radius: 17px;
+    color: var(--white-color);
+    padding: 16px  35px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.banner_search{
+    background: var(--white-color);
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.05);
+    border-radius: 0px 10px 10px 10px;
+    padding: 24px 27px;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+}
+.banner_search .item{
+    display: flex;
+    gap: 8px;
+}
+.banner_search .item button{
+    border: none;
+    padding: 30px;
+    background: var(--primary-color);
+    border-radius: 10px;
+}
+.banner_search .item button svg{
+stroke: var(--white-color);}
+.banner_search .item button:hover svg{
+stroke: red;}
+
+.search_text select{
+    width: 100% ;
+    border: none;
+}
+.search_text input{
+    width: 100%;
+    border: none;
+    color: red;
+}
+.search_text input::placeholder{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #6A6A6A;
+}
+/*==============================
+     Banner part End
+==============================*/
+
+/*==============================
+     travel_benefits part Start
+==============================*/
+#travel_benefits{
+    padding-top: 140px;
+}
+#travel_benefits .common_haeading{
+    margin: 0 auto;
+    text-align: center;
+}
+.travel_benefits_item{
+    padding: 63px 77px 63px 44px;
+    border-radius: 14px;
+    background: var(--white-color);
+    /* background: #eee; */
+    transition: all linear .3s;
+    margin-bottom: 24px;
+}
+.travel_benefits_item:hover{
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+}
+.travel_benefits_item .icon{
+    width: 84px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 127, 95, 0.1);
+    border-radius: 14px;
+}
+.travel_benefits_item .text{
+    padding-top: 40px;
+}
+.travel_benefits_item .text h3{
+    color: var(--haeading-color);
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+.travel_benefits_item .text p{
+    color: var(--paragraph-color);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+/*==============================
+     travel_benefits part End
+==============================*/
+
+
+
+/*==============================
+     popular part Start
+==============================*/
+#popular{
+    padding-top: 120px;
+}
+#popular .common_haeading{
+    text-align: center;
+    margin: 0 auto;
+}
+
+.popular_item{
+    margin: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 14px;
+}
+.popular_item img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.popular_item .image{
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.popular_item .text b{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+}
+.popular_item .text span{
+    font-weight: 400;
+    font-size: 16px;
+}
+.popular_item .text a{
+    width: 150px;
+    display: block;
+    padding: 10px 35px;
+    border-radius: 17px;
+    color: var(--primary-color);
+    border:  1px solid var(--primary-color);
+    text-align: center;
+}
+.slick-center .popular_item{
+    box-shadow: 0px 20px 50px rgba(0, 0, 0, 0.1);
+}
+.slick-center .popular_item .text a{
+    background: var(--primary-color);
+    color: var(--white-color);
+}
+
+/*==============================
+     popular part End
+==============================*/
+
+
+/*==============================
+     Navbar part Start
+==============================*/
+/*==============================
+     Navbar part End
+==============================*/
