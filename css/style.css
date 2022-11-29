@@ -12,9 +12,13 @@ body{
 *{
     padding: 0;
     margin: 0;
+    outline: 0 ;
+    box-sizing: border-box;
 }
 ul,ol,li{
     list-style: none;
+    padding: 0;
+    margin: 0;
 }
 a{
     display: inline-block;
@@ -43,6 +47,17 @@ input:focus,button:focus,select:focus{
     font-size: 16px;
     line-height: 30px;
     color: var(--paragraph-color);
+}
+.common_btn{
+    background: var(--primary-color);
+    border-radius: 17px;
+    text-align: center;
+    padding: 17px 35px;
+    color: var(--white-color);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid var(--primary-color);
 }
 /* All Common css End */
 
@@ -214,6 +229,7 @@ stroke: red;}
 ==============================*/
 #popular{
     padding-top: 120px;
+    padding-bottom: 135px;
 }
 #popular .common_haeading{
     text-align: center;
@@ -264,6 +280,48 @@ stroke: red;}
 
 /*==============================
      popular part End
+==============================*/
+
+
+/*==============================
+     go_travel part Start
+==============================*/
+#go_travel{
+    padding: 150px 0;
+    background: rgba(30, 30, 30, 0.05);
+}
+.go_travel_left{
+    max-width: 516px;
+}
+.go_travel_left h2{
+    padding-right: 50px;
+}
+.go_travel_left{}
+.go_travel_left ul{}
+.go_travel_left ul li{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.go_travel_left ul li span{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: var(--paragraph-color);
+    margin-top: -10px;
+}
+.go_travel_left a:hover{
+    background: transparent;
+    color: var(--primary-color);
+}
+
+.go_travel_right{
+    max-width: 570px;
+    background: red;
+    margin-left: 48px;
+}
+/*==============================
+     go_travel part End
 ==============================*/
 
 
