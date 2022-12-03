@@ -79,10 +79,6 @@ input:focus,button:focus,select:focus{
     line-height: 24px;
     color: var(--paragraph-color);
 }
-.item{
-    padding: 2px;
-    margin-bottom: 24px;
-}
 /*==============================
      Navbar part End
 ==============================*/
@@ -316,13 +312,82 @@ stroke: red;}
 }
 
 .go_travel_right{
-    max-width: 570px;
-    background: red;
+    width: 570px;
+    /* background: red; */
     margin-left: 48px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.go_travel_right .item{
+    width: 270px;
+    border-radius: 17px;
+    padding: 62px 32px;
+    background: var(--white-color);
+    transition: all linear .3s;
+    cursor: pointer;
+}
+.go_travel_right .item .icon{
+    width: 74px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 127, 95, 0.1);
+    border-radius: 14px;
+    transition: all linear .3s;
+}
+.go_travel_right .item .icon svg{
+    fill: var(--primary-color);
+}
+.go_travel_right .item .text{
+    padding-top: 20px;
+}
+.go_travel_right .item .text h3{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+    letter-spacing: 0.2px;
+    color: var(--haeading-color);
+    transition: all linear .3s
+}
+.go_travel_right .item .text h3 span{}
+.go_travel_right .item .text p{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 38px;
+    letter-spacing: 0.2px;
+    color: var(--paragraph-color);
+    transition: all linear .3s
+}
+.go_travel_right .item:hover{
+    background: var(--primary-color);
+}
+.go_travel_right .item:hover .icon{
+    background: var(--white-color);
+}
+.go_travel_right .item:hover .text h3{
+    color: var(--white-color);
+}
+.go_travel_right .item:hover .text p{
+    color: var(--white-color);
 }
 /*==============================
      go_travel part End
 ==============================*/
+
+.offer ul{
+    display: flex;
+    gap: 20px;
+}
+.offer ul li{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.offer ul li span{}
 
 
 /*==============================
