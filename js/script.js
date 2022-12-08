@@ -1,10 +1,36 @@
 $(function(){
+    feather.replace();
+
     $(".popular_slider").slick({
         slidesToShow:3,
         arrows:false,
         centerMode:true,
         centerPadding: "150px",
         focusOnSelect:true,
+        responsive: [
+            {
+              breakpoint: 992,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              }
+            },
+            {
+              breakpoint: 768,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1
+              }
+            },
+            {
+              breakpoint: 576,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                centerMode:false
+              }
+            }
+          ]
     })
     // Counter Up Js
     $('.counter').counterUp({

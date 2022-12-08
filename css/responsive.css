@@ -1,0 +1,170 @@
+@media (max-width: 575.98px) {
+    /* common css start */
+    h2{
+        font-size: 25px;
+        line-height: 1;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 16px !important;
+        list-style: 1.5;
+    }
+    /* common css end */
+    #navbar {
+        background: rgba(230, 230, 230, 0.83);
+        padding: 25px 0;
+        padding: 0;
+    }
+    .navbar-brand {
+        width: 150px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #1e1e1e;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav_btn {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Banner start */
+    .banner_info .banner_text h1 {
+        font-size: 35px;
+        line-height: 1.5;
+        padding-right: 0;
+        text-align: center;
+    }
+    .banner_text {
+        text-align: center;
+    }
+    .banner_info .banner_text p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+        opacity: 0.7;
+        padding-right: 0;
+    }
+    #banner .overlay {
+        padding: 50px 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .banner_search {
+        border-radius: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .banner_search .item{
+        width: 100%;
+    }
+    .banner_search .item button {
+        padding: 13px;
+        width: 100%;
+    }
+    /* Banner end */
+
+    /* travel_benefits start */
+    #travel_benefits {
+        padding-top: 60px;
+    }
+    .travel_benefits_item {
+        padding: 15px;
+        text-align: center;
+    }
+    .travel_benefits_item .icon{
+        margin: 0 auto;
+    }
+    .travel_benefits_item .text {
+        padding-top: 20px;
+    }
+    /* travel_benefits end☻ */
+
+    /* popular part start */
+    .popular_item{
+        text-align: center;
+    }
+    .popular_item .text a {
+        width: auto;
+        padding: 8px 35px;
+    }
+    #popular {
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    /* popular part end */
+
+    /* go_travel start */
+    #go_travel {
+        padding: 40px 0;
+    }
+    
+    .go_travel_left {
+        padding-bottom: 20px;
+    }
+    .go_travel_right {
+        margin-left: 0;
+    }
+    .go_travel_right .item {
+        width: 100%;
+        padding: 30px;
+    }
+    /* go_travel end */
+}
+
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #navbar {
+        background: green;
+        padding: 25px 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    #navbar {
+        background: blue;
+        padding: 25px 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #navbar {
+        background: yellow;
+        padding: 25px 0;
+        padding: 0;
+    }
+    
+}
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    #navbar {
+        background: orange;
+        padding: 25px 0;
+        padding: 0;
+    }
+}
+
+@media (min-width: 1400px) {
+    
+}
+
+
+
+
