@@ -9,25 +9,31 @@ $(function(){
         focusOnSelect:true,
         responsive: [
             {
+              breakpoint: 1200,
+              settings: {
+                slidesToShow: 3,
+                centerPadding: "60px",
+              }
+            },
+            {
               breakpoint: 992,
               settings: {
-                slidesToShow: 2,
-                slidesToScroll: 2,
+                slidesToShow: 3,
+                centerMode:false
               }
             },
             {
               breakpoint: 768,
               settings: {
                 slidesToShow: 2,
-                slidesToScroll: 1
+                centerMode:false,
               }
             },
             {
               breakpoint: 576,
               settings: {
                 slidesToShow: 1,
-                slidesToScroll: 1,
-                centerMode:false
+                centerMode:false,
               }
             }
           ]

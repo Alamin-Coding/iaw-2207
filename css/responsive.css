@@ -128,36 +128,259 @@
 
 
 @media (min-width: 576px) and (max-width: 767.98px) {
+     /* common css start */
+     h2{
+        font-size: 25px;
+        line-height: 1;
+    }
+    h3{
+        font-size: 20px !important;
+    }
+    p{
+        font-size: 16px !important;
+        list-style: 1.5;
+    }
+    .common_haeading{
+        text-align: center !important;
+        padding: 0 10px;
+    }
+    /* common css end */
     #navbar {
-        background: green;
+        background: rgba(230, 230, 230, 0.83);
         padding: 25px 0;
         padding: 0;
     }
+    .navbar-brand {
+        width: 150px;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .navbar-toggler:focus{
+        border: none;
+        outline: none;
+        box-shadow: none;
+    }
+    .navbar-toggler i{
+        color: #1e1e1e;
+    }
+    .navbar-nav {
+        text-align: center;
+    }
+    .nav_btn {
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    /* Banner start */
+    .banner_info .banner_text h1 {
+        font-size: 35px;
+        line-height: 1.5;
+        padding-right: 0;
+        text-align: center;
+    }
+    .banner_text {
+        text-align: center;
+    }
+    .banner_info .banner_text p {
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 1.5;
+        opacity: 0.7;
+        padding-right: 0;
+    }
+    #banner .overlay {
+        padding: 50px 0;
+        background: rgba(0, 0, 0, 0.7);
+    }
+    .banner_search {
+        border-radius: 10px;
+        gap: 20px;
+        flex-wrap: wrap;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+    .banner_search .item{
+        width: 100%;
+    }
+    .banner_search .item button {
+        padding: 13px;
+        width: 100%;
+    }
+    /* Banner end */
+
+    /* travel_benefits start*/
+    #travel_benefits {
+        padding-top: 60px;
+    }
+    .travel_benefits_item {
+        padding: 15px;
+        background: #eee;
+    }
+    /* travel_benefits end*/
+
+    /* popular start */
+    #popular {
+        padding-top: 34px;
+        padding-bottom: 35px;
+    }
+    /* popular end */
+
+    #go_travel {
+        padding: 60px 0;
+        background: rgba(30, 30, 30, 0.05);
+    }
+    .go_travel_left {
+        padding-bottom: 30px;
+    }
+    .go_travel_right {
+        width: 100%;
+        margin-left: 0;
+    }
+    .go_travel_right .item {
+        width: 243px;
+        border-radius: 10px;
+        padding: 20px;
+    }
 }
 
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 768px) and (max-width: 991.98px) {
-    
     #navbar {
-        background: blue;
-        padding: 25px 0;
+        padding: 10px 0;
+    }
+    
+    .popular_item {
+        margin: 6px;
+        padding: 10px;
+        padding-bottom: 20px;
+        border-radius: 10px;
+    }
+
+    #banner .overlay {
+        padding: 80px 0;
+    }
+    .banner_info {
+       text-align: center;
+    }
+    .banner_info .banner_text h1 {
+        font-size: 40px;
+        line-height: 1.5;
+        padding-right: 0;
+    }
+    .banner_info .banner_text p {
+        padding-right: 0;
+    }
+    .banner_search {
+        border-radius:10px;
+        padding: 15px 10px;
+        margin-top: 50px;
+        gap: 15px;
+    }
+    .banner_search .item button {
+        padding: 12px;
+        border-radius: 10px;
+    }
+
+
+    #travel_benefits {
+        padding-top: 80px;
+    }
+    .travel_benefits_item {
+        padding: 30px 60px 30px 40px;
+    }
+    #popular {
+        padding-top: 60px;
+        padding-bottom: 35px;
+    }
+    #go_travel {
+        padding: 80px 0;
+    }
+    .go_travel_left {
+        padding-bottom: 40px;
+    }
+    .go_travel_left ul {
+        padding-top: 37px;
+    }
+    .go_travel_left ul li {
+        margin-bottom: 25px;
+    }
+    .go_travel_left .common_haeading {
         padding: 0;
+    }
+    .go_travel_right {
+        width: auto;
+        margin-left: 0;
+    }
+    .go_travel_right .item {
+        width: 47%;
     }
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+    .navbar-nav li {
+        margin: 0 10px;
+    }
     #navbar {
-        background: yellow;
-        padding: 25px 0;
-        padding: 0;
+        padding: 15px 0;
+    }
+    .banner_info .banner_text h1 {
+        font-size: 45px;
+        line-height: 1.3;
+        padding-right: 0;
+    }
+    .travel_benefits_item {
+        padding: 30px;
+    }
+    .popular_item {
+        margin: 10px;
+        padding: 15px;
+    }
+    .go_travel_right .item {
+        width: 188px;
+        border-radius: 10px;
+        padding: 27px;
+    }
+    .go_travel_right .item .text h3 {
+        font-size: 25px;
+        line-height: 1;
+        letter-spacing: 0.1px;
+    }
+    .go_travel_right .item .text p {
+        font-size: 16px;
+        line-height: 1.5;
     }
     
 }
 
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-    #navbar {
-        background: orange;
-        padding: 25px 0;
-        padding: 0;
+    .banner_info .banner_text h1 {
+        padding-right: 74px;
+    }
+    .go_travel_right .item {
+        width: 233px;
+        border-radius: 15px;
+        padding: 30px 20px;
+    }
+    .go_travel_right .item .text h3 {
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    .go_travel_right .item .text p {
+        font-size: 20px;
+        line-height: 1.5;
     }
 }
 
